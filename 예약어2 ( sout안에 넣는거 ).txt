@@ -1,0 +1,139 @@
+chap_01 변수
+public static void main(String[] args){}
+* 단축어 psvm & main
+
+System.out.println()
+*단축어 sout
+
+sout((_기본어_)〇〇〇) // 수동변환(문자열->숫자열  등...)
+
+*int -> long -> float -> double // 자동변환 가능(역순은 안됨
+예시)) double = int (가능)
+예시)) int = double (불가능)
+
+String 〇〇〇 = String.valueOf(〇〇〇);
+〇〇〇 = Integer.toString (〇〇〇);
+〇〇〇 = Double..toString (〇〇〇);
+*숫자열 -> 문자열
+
+
+int 〇〇〇 = Integer.parseInt("〇〇〇");
+double 〇〇〇 = Double.parseDouble("〇〇〇");
+*문자열 -> 숫자열
+
+
+                               
+
+chap_03 // 문자열<<System.out.println(__________) __ 들어가는 예약어>>
+〇.lenth - 문자열 수
+〇.toUpperCase // 대문자 전환
+〇.toLowerCase // 소문자 전환
+〇.containg(〇〇〇) // 〇〇〇글이 포함여부 (true & false)
+〇.intdexOf(〇〇〇) // 〇〇〇글의 시작 위치(문장의 몇번째시작인지)
+                           * 없으면 -1
+〇.lastindexOf(〇〇〇) // 중복되는 단어가 있다면 〇〇〇의 마지막글자 위치
+〇.startsWith(〇〇〇) //  〇〇〇 문자열로 시작여부 ( true & false )
+〇.endsWith(〇〇〇) // 〇〇〇 문자열로 끝나는지 여부 ( true & false )
+〇.replac(〇〇〇,△△△) // 〇->△ 변환
+〇.substring(〇) // 〇번째 이전 내용은 삭제
+〇.substring(〇.intdexOf(〇〇〇)) // 〇〇〇 이전에 적힌 문자 삭제
+〇.substring(〇,△) // 〇부터 △번째이전 내용 출력 
+〇.substring(〇.intdexOf(〇〇〇),(〇.intdexOf(△△△)) // 〇〇〇부터 △△△이전문자까지 실행
+〇.strim // 앞뒤 공백 모두 제거
+〇.concat(〇〇〇) // 〇문자열에 〇〇〇추가 기입
+〇.equals(〇〇〇) // 〇=〇〇〇 문자열비교 (true & false)
+
+
+
+
+
+
+
+chap_04 // 제어문
+if ( 〇〇<〇〇 ) {}     ///  조건문
+else if   /// if가 false일때 출력
+else  ///  if, else if가 false일때 출력
+
+예시))
+int hour = 20
+boolean 집 = false
+boolea 서희랑_카톡옴 = false
+if( hour > 19 && 집 == true ) {sout("서희는 집에 있음")}
+else if (집 == true){sout("서희는 퇴근임")
+else if (서희랑_카톡옴 == true){sout("서희는 카톡하면서 집에오는중")}
+else (){"서희랑 연락두절됨"}
+
+
+
+
+switch // 등수,등급 등..  매길때 씀
+case // swich 쓸때 활용
+break // 
+
+예시))
+rangkin = 5;
+switch (rangkin) {
+case 1 :
+sout(금메달)
+case 2 :
+
+
+
+
+for (선언 ; 조건 ; 증감) // 반복문
+선언 // 값을 선언
+조건 // 값이 true가 될때까지 출력
+증감 // 값을 증감
+for (int i = 0; i < 10; i++) // i(0)가 10될대까지 +1반복 총 10번 출력
+
+
+
+
+
+
+chap_05 배열
+
+기본
+1.String[ ] 〇〇〇 = new String[배열수];
+2.String 〇〇〇 [ ] = new String[배열수];
+  〇〇〇[1] = 〇〇〇;
+3.String[ ] 〇〇〇 = new String[ ] {〇〇〇,〇〇〇,〇〇〇,〇〇〇}
+4.String[ ] 〇〇〇 = {〇〇〇,〇〇〇,〇〇〇,〇〇〇}
+
+
+for 반복문 활용     
+배열설정 // String[ ] △△△ = {〇〇〇,〇〇〇,〇〇〇,〇〇〇}
+1.for (int i = 0; i < 배열수; i++) {sout(△△△)}
+2.foreach활용
+for (String □□□：△△△){sout(□□□)}
+** 1.번의 경우 i<배열수 만큼만 출력, 2.번은 배열설정값 모두 출력
+
+
+다차원 배열
+1. 1차원 배열
+String[ ] A={"a1","a2","a3"};
+String[ ] B={"b1","b2","b3"};
+
+2. 2차원배열
+String[ ] [ ] seats = new String [ ] [ ] {
+{"a1","a2","a3"} , <- 쉼표 꼭 있어야함
+{"b1","b2","b3"} };
+sout( seats[세로값] [가로값])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

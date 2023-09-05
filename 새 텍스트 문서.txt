@@ -1,0 +1,10 @@
+shift + f10 // 실행
+ctrl + alt + i // 줄 정리
+
+
+
+alt + ins // generate
+
+
+ctrl + alt + ← // 이전화면
+ctrl + alt + → // 다음화면

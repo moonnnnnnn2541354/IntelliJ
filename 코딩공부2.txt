@@ -1,0 +1,19 @@
+public static void main(String[] args){}
+*단축어 psvm 또는 main
+
+System.out.println();
+*단축어 sout
+
+Shift + F10 = 실행
+
+""
+*문자열(초록색글씨)
+
+()
+*숫자열(파란글씨)(+-/* 가능)
+
+true, false
+* 참,거짓(불리안)(주황글씨)
+
+
+

@@ -1,0 +1,90 @@
+강의 7 (시작)
+psvm, main ( public static void main )
+sout ( System.out.println )
+
+강의 8,9 (변수)
+int 〇〇〇 = 〇〇;          -인트
+long 〇 = 〇〇〇L;         -롱(인트보다 더 큰숫자를 다룰수 있다)
+
+float 〇 = 〇〇〇F;         -플룻
+double 〇〇〇 = 〇〇;     -더블(플룻보다 더 많은 소수점가능)
+
+char 〇〇〇 = '〇'           -캐릭터(한글자)
+String 〇〇〇 = "〇〇〇";       -스트링
+boolean 〇〇〇 = 〇〇〇;         -불리안(ture, fales)
+
+****
+int, long = 정수
+float, double = 실수( 소수점 )
+char, String, boolean = 문자열
+
+강의 10 (주석(제외)) * 메모활용가능
+한줄 주석 단축키 : Ctrl + /
+// + 문자열 = 생략
+
+여러줄 주석 단축키 : Ctrl + Shift + /
+/*~*/ = * 사이에 있는것 생략 
+
+
+강의12(상수)
+
+final String 〇〇〇 = "〇〇〇";
+* 앞에 final 을 붙이면 바꿀수 없음
+
+
+강의13(변수 변환)
+System.out.println( (변수용어) 〇〇〇 )
+
+강의14
+String 〇〇〇 = String.valueOf(〇〇〇);
+〇〇〇 = Integer.toString (〇〇〇);
+〇〇〇 = Double..toString (〇〇〇);
+*숫자열 -> 문자열
+
+
+int 〇〇〇 = Integer.parseInt("〇〇〇");
+double 〇〇〇 = Double.parseDouble("〇〇〇");
+*문자열 -> 숫자열
+
+
+
+% = 나머지연산
+나누기 했을때 소수점 말고 나오는 나머지
+
+5 / 2 = 2(몫), 1(나머지)
+
+
+
+강의 17 증감연산, 감소연산
+
+++〇〇〇 = 1을 먼저 더함
+〇〇〇++  = 1을 나중에 더함
+
+--〇〇〇 = 1을 먼저 뺌
+〇〇〇--  = 1을 나중에 뺌
+
+
+강의18
+대입연산자
+
+복합 대입연산자
+
+강의19
+비교연산자(true,false)
+> 크다
+>= 크거나 같다
+< 작다
+<= 작거나 같다
+== 같다
+!= 같지않다
+
+강의20
+논리연산자
+boolean 불리안
+|| (쉬프트+\) = 하나라도 true이면 true
+&& = 모두 true이면 true
+
+
+
+
+
