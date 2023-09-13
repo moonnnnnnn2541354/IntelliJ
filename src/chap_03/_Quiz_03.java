@@ -1,6 +1,6 @@
-package 문제;
+package chap_03;
 
-public class 강의27_정답 {
+public class _Quiz_03 {
     public static void main(String[] args) {
         // 주민번호 출력
         // 1. 901231-1 (901231-1234567)

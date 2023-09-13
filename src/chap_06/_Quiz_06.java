@@ -1,6 +1,6 @@
-package 문제;
+package chap_06;
 
-public class 강의60_정답 {
+public class _Quiz_06 {
     public static String getHiddenData (String data,int index){
         String hiddenData = data.substring(0,index);
         for (int i = index; i < data.length(); i++) {

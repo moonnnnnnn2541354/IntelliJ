@@ -1,6 +1,6 @@
-package 문제;
+package chap_04;
 
-public class 강의43_정답 {
+public class _Quiz_04 {
     public static void main(String[] args) {
         //키워드 시간
         //차량 여부
@@ -25,5 +25,7 @@ public class 강의43_정답 {
         }
 
         System.out.println("주차요금 " + fee + "원 나왔습니다.");
+
+
     }
 }

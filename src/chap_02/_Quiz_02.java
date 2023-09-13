@@ -1,6 +1,6 @@
-package 문제;
+package chap_02;
 
-public class 강의22_정답 {
+public class _Quiz_02 {
     public static void main(String[] args) {
         //조건
         // 키가 120cm 이상만 탑승가능

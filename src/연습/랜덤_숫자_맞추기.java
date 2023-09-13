@@ -7,7 +7,7 @@ public class 랜덤_숫자_맞추기 {
         int input = 0, answer = 0;
 
         answer = (int) (Math.random() * 100) + 1;//1~100사이
-        System.out.println("answer=" + answer);
+//        System.out.println("answer=" + answer); 정답
         Scanner scanner = new Scanner(System.in);
 
         do {
