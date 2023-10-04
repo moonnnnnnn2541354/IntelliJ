@@ -57,6 +57,5 @@ public class _01_Array {
         System.out.println(b[0]);
         System.out.println(b[1]);
         System.out.println(b[2]);
-
     }
 }

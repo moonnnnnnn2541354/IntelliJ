@@ -31,10 +31,5 @@ public class _03_Return {
 
         System.out.println(getActivities());
 
-
-
-
-
-
     }
 }
